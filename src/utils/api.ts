@@ -39,14 +39,6 @@ export const checkRequiredEmailFields = (emails = []) => {
   });
 };
 
-export const getHeaders = () => {
-  return {
-    headers: {
-      "App-Id": Configs.apiConfig.headers["App-Id"],
-    },
-  };
-};
-
 export const returnApiResponse = (req, res, message: Object, code = 200) => {
   res.status(code).json({
     success: code === 200,

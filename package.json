@@ -43,6 +43,7 @@
 		"node-cron": "^3.0.0",
 		"nodemon": "^2.0.7",
 		"nyc": "^15.1.0",
+		"openai": "^3.2.1",
 		"permit": "^0.2.4",
 		"pg-metadata": "^5.0.1",
 		"reflect-metadata": "^0.1.13",

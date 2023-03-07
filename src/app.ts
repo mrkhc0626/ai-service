@@ -19,6 +19,9 @@ app.get("/", (_, res) => {
 // Health
 app.get("/health", Controllers.getHealth);
 
+// Start A.I. service
+app.post("/start", Controllers.startAI);
+
 app.listen(port, () => {
   console.log(`server is listening on ${port}`);
   return;
